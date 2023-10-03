@@ -1,0 +1,73 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+p{
+    color: grey;
+}
+/*title*/
+#title{
+    background-color: #f7dcd9;
+    padding: 3% 15% 5%;
+}
+.brand-title{
+    width: 50%;
+}
+
+#history{
+    background-color: white;
+    padding: 7% 14%;
+}
+.history{
+	font-size: 3rem;
+	font-weight: 900;
+	color: #bb002d;
+}
+.history-img{
+	border-radius: 50%;
+	height: auto;
+	width: 33%;
+	float: right;
+}
+.quote{
+	text-align: center;
+	margin: auto;
+	font-size: 2rem;
+	position: relative;
+}
+
+p{
+	padding: 7%, 14%;
+	font-size: 1.25rem;
+	margin-top: 7%;
+	width: 66%;
+	line-height: 1.5;
+}
+
+/*footer*/
+#footer{
+    text-align: center;
+    padding: 3.5% 7%;
+}
+.foot-icon{
+    padding: 20px 10px;
+}
+
+@media (max-width: 425px) {
+	.history-img{
+		display: none;
+	}
+	p{
+	font-size: 16px;
+	}
+	.quote{
+		text-align: center;
+		margin: auto;
+		font-size: 1rem;
+	}
+	.history{
+		font-size: 1.5rem;
+		font-weight: 900;
+		color: #bb002d;
+	}
+}
